@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 21, 2021, 6:06:00 AM
+    Author     : ad
+*/
+.container-student{
+    display: flex;
+}
+#table-student table, th, td{
+    border:1px solid #ccc;
+}
+#table-student table{
+    border-collapse:collapse;
+}
+#table-student tr:hover{
+    background-color:#ddd;
+    cursor:pointer;
+}
+
+.student_menu{
+    /* position: relative; */
+    width: 350px;
+    height: 100vh;
+    text-align: center; 
+    flex-direction: column;
+    justify-content: center; 
+    background-color: #F5F5F5;
+}
+
+.menu_student{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.menu_student button{
+    padding: 20px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: #1E90FF;
+    text-align: center;
+}
+.content_student{
+    position: relative;
+    display: flex;
+    height: 80px;
+    width: calc(100vw - 300px);
+    align-items: center;
+    background-color: #065683;
+    color: #000;
+}
+
+.content_student h1{
+    font-size: 30px;
+    margin-left: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.content_student i{
+    position: absolute;
+    right: 40px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.menu_student button:hover{
+    color: red;
+    font-size: 22px;
+    background-color: #F5F5F5;
+    
+}
+/*.menu_student i:hover{
+    color: red;
+    font-size: 25px;
+}*/
+.menu_student i{
+    font-size: 20px;
+}
+
+
+.drop-down_student
+{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    top: 70px;
+    right: 40px;
+    border: 1px solid #197BBD;
+    height: fit-content;
+    transition: 1s ease-in-out all;
+}
+
+.drop-down_student button{
+    padding: 5px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #6DCFF6;
+    color: #000;
+}
+
+.drop-down_student button:hover{
+    background-color: #197BBD;
+    color: #fff;
+}

@@ -1,0 +1,369 @@
+body{
+    font-size: 18px;
+    margin: 0%;
+}
+
+*:focus{
+    outline: none;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color:  #23419F;
+}
+
+a:hover {
+    color:   #065683;
+    font-weight: bold;
+}
+
+.small-container{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.header{
+    border-bottom: 1px solid #000000;
+}
+
+    .header .small-container{
+        display: flex;
+        flex-wrap: wrap;
+        height: 80px;
+        height: auto;
+    }
+
+.logo{
+    /* background: linear-gradient(90deg, #111111, #ffffff); */
+    background: url("../../Images/logo.png") no-repeat;
+    background-size: 170px 80px;
+    height: 80px;
+    width: 170px;
+    background-position: 5px 5px;
+    cursor: pointer;
+}
+
+.menu-function{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+    .menu-function ul{
+        list-style-type: none;
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+        .menu-function ul li{
+            margin: 0px 20px 0px 20px;
+        }
+
+.menu-login{
+    flex: 20%;
+    display: flex;
+    align-items: center;
+}
+
+    .menu-login input{
+        font-size: 20px;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        margin: 0px 10px 0px 10px;
+    }
+
+.icon-search{
+    cursor: pointer;
+}
+
+.sign-in{
+    margin: 0px 10px 0px 0px;
+}
+
+#btnSignIn{
+    border: none;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+    #btnSignIn:hover{
+        border: 1px solid #000;
+        border-radius: 15px;
+        color: #065683;
+        font-weight: bold;
+    }
+
+#btnRegister{
+    border: 1px solid #000;
+    border-radius: 15px;
+    color: #065683;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+    #btnRegister:hover{
+
+        font-weight: bold;
+    }
+
+.web-introduction{
+    text-align: left;
+    border-top: 1px solid #58585c;
+    background: #F4F7FF;
+}
+
+    .web-introduction .small-container{
+        text-align: left;
+        min-width: 400px;
+    }
+
+    .describe-web-introduction h2{
+        width: 40%;
+        font-size: 34px;
+        margin: 10px 0 10px 0;
+    }
+
+    .web-introduction input{
+        color: #ffffff;
+        font-weight: bold;
+        background-color: #065683;
+        padding: 10px 20px 10px 20px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+
+    .web-introduction button:hover{
+        background-color: #23419F;
+    }
+
+.search-course{
+    font-size: 20px;
+    padding: 20px 0 20px 0;
+    background-color: #D8EDF8;
+}
+
+    .search-course h3{
+        margin: 0px 0 5px 0;
+    }
+
+.input-search-course{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    width: 50%;
+    background-color: #ffffff;
+}
+
+    .search-course input{
+        font-size: 20px;
+        border: none;
+        width: 90%;
+    }
+
+    .search-course i{
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .outstanding-course .small-container{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        background-color: #F2FAF7;
+        padding: 30px;
+    }
+
+.outstanding-course-introduction{
+    flex: 70%;
+    min-width: 400px;
+}
+
+.title-outstanding-course{
+    color: #23419F;
+}
+
+.detail-outstanding-course{
+    margin-bottom: 20px;
+}
+
+.request-information{
+    margin-bottom: 20px;
+}
+
+    .request-information input{
+        background-color: #23419F;
+        color: #ffffff;
+        padding: 10px 15px 10px 15px;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+    .request-information input:hover{
+        background-color: #065683;
+    }
+
+
+.logo-university-outstanding-course{
+    flex: 25%;
+    background: url("../../Images/babson.png") no-repeat;
+    background-size: 300px 300px;
+    min-width: 300px;
+    min-width: 300px;
+}
+
+    .university-introduction .small-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+
+    .university-introduction .logo-school{
+        flex: 20%;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        margin: 10px 0px 10px 0px;
+        min-width: 100px;
+    }
+
+    .university-introduction #logo-ute{
+        background: url("../../Images/logoUTE.png") no-repeat;
+        background-size: 100px 100px;
+        background-position: center;
+    }
+
+    .university-introduction #logo-uit{
+        background: url("../../Images/logoUIT.png") no-repeat;
+        background-size: 100px 100px;
+        background-position: center;
+    }
+
+    .university-introduction #logo-khtn{
+        background: url("../../Images/logoKHTN.png") no-repeat;
+        background-size: 100px 100px;
+        background-position: center;
+    }
+
+    .university-introduction #logo-bk{  
+        background: url("../../Images/logoBK.png") no-repeat;
+        background-size: 100px 100px;
+        background-position: center;
+    }
+
+    .university-introduction #logo-hutech{
+        background: url("../../Images/logoHutech.png") no-repeat;
+        background-size: 100px 100px;
+        background-position: center;
+    }
+
+
+    .title-popular-subject h2{
+        font-size: 40px;
+        margin: 20px 0px 10px 0px;
+    }
+
+.subject-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 30px;
+    padding: 30px 0 30px 0;
+}
+
+
+.header-subject-item{
+    display: flex;
+    background-color: #065683;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    /*justify-content: center;*/
+}
+
+.icon-header-subject-item{
+    width: 77px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.icon-item{
+    flex: 100%;
+}
+
+    .title-header-subject-item h2{
+        margin: 25px 0 25px 0;
+    }
+
+.content-subject-item{
+    padding: 20px;
+    color: #23419F;
+    background-color: #F4F7FF;
+    border-radius: 0 0 10px 10px;
+}
+
+    .content-subject-item ul{
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+
+    .online-course input{
+        border-radius: 20px;
+        padding: 10px 15px 10px 15px;
+        background-color: #ffffff;
+        cursor: pointer;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+        .online-course input:hover{
+            color: #065683
+        }
+
+.footer{
+    background-color: #FCFCFC;
+}
+
+    .footer .small-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .footer .small-container ul{
+        list-style-type: none;
+        padding-left: 15px;
+    }
+
+    .footer .small-container .icon-logo{
+        background: url("../../Images/logo.png") no-repeat;
+        background-size: 240px 120px;
+        background-position: center;
+        height: 150px;
+        width: 250px;
+        cursor: pointer;
+    }
+
+.info-member{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.member-detail{
+    border-right: 1px solid #000;
+    padding: 0 20px 0px 20px;
+    margin-right: 30px;
+    min-width: 200px;
+    width: 200px;
+}
+
+.copyright{
+    text-align: center;
+    padding-bottom: 10px;
+}
