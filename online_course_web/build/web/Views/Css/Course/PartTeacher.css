@@ -1,0 +1,455 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 13, 2021, 4:36:57 AM
+    Author     : ad
+*/
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,700,500,300);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: Time New Roman;
+    font-size: 16px;
+    outline: none;
+}
+.header{
+    width: 100%;
+    border-bottom: 2px solid lightblue;
+}
+.div_menu
+{
+    height: 100px;
+    /*background-color: blue;*/
+    border-bottom:2px outset #b1154a;
+    box-shadow: 0px 5px 5px gray;
+    display: flex;
+    justify-content: space-between
+}
+
+.div_logo
+{
+    margin-left: 10%;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    /*background-color: red;*/
+}
+
+#image_logo
+{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+#div_account
+{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    margin-right: 10%;
+}
+
+#label_account
+{
+
+    font-family: Time New Roman;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*body div*/
+.div_container
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.div_mucTieu
+{
+    width: 100%;
+    background-color: red;
+/*    padding-right: 50px;
+    padding-left: 50px;*/
+padding-bottom: 20px;
+    background-color: #BDBDBD;
+     border-radius: 10px 10px 10px 10px;
+}
+
+
+
+#textarea_mucTieu
+{
+    height: 100px;
+    width: 90%;
+    resize: vertical;
+    font-size: 18px;
+    font-family: Time New Roman;
+    margin: 0 5% 0 5%;
+}
+
+
+
+/*course content*/
+.div_noiDung
+{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    /*background-color: red;*/
+    padding-bottom: 20px;
+    background-color: #BDBDBD;
+     border-radius: 10px 10px 10px 10px;
+}
+
+#courseName
+{
+    width: 90%;
+    height: 80px;
+    font-size: 30px;
+    color: #b1154a;
+    margin: 0 5% 0 5%;
+}
+
+.div_chap
+{     
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.chap
+{
+    display: block;
+    width: 90%;
+    font-family: Time New Roman;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.textbox_part
+{   
+    display: block;
+    width: 90%;
+    font-family: Time New Roman;
+    font-size: 18px;
+    margin-top:10px;
+    margin-left: 10%;
+    /*float: right;*/
+}
+
+.link_goto
+{
+    display: block;
+    margin-left: 95%;
+    margin-right: 0px;
+    width: 10px;
+}
+#div_account
+{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    margin-right: 10%;
+}
+
+#label_account
+{
+    font-family: Time New Roman;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.main_title
+{
+    height: 80px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}    
+#lessonname
+{
+    width: 40%;
+    height: 100%;
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.main_namelesson
+{
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title_lesson h2
+{
+    margin-top: 18px;
+    font-family: Time New Roman;
+    font-size: 36px;
+    color: blue;
+}
+.content_lesson
+{
+    height: 250px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    /*border-bottom:2px outset black;*/
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+#inf-lesson 
+{
+    width: 80%;
+    height: 100%;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+/*    .inf-lesson textarea
+    {
+        font-size: 20px;
+        height: 100%;
+        width: 1250px;
+        font-family: Time New Roman;
+        color:black;
+        padding: 10px;
+    }*/
+.drag_drop{
+    height: 345px;
+    margin:  auto;
+    border-bottom:2px outset;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+/*'@import url(https://fonts.googleapis.com/css?family=Exo+2:400,700,500,300);*/
+
+body {
+  background: #ebeff2;
+  font-family: "Exo 2";
+}
+
+.zone {      
+  margin: auto;
+  position: absolute;
+  background: radial-gradient(ellipse at center,black 0,gray 100%);
+  width:80%;
+  height:40%;  
+  border:5px dashed white;
+  text-align:center;
+  color: white;
+  z-index: 20;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.05),inset 0 0 .25em 0 rgba(0,0,0,.25);
+  .btnCompression {
+    .btn {
+
+    } 
+    .active {
+      background: #EB6A5A;
+      color:white;
+    }
+  }
+  i{
+    text-align: center;
+    font-size: 10em;  
+    color:#fff;
+    margin-top: 50px;
+  }
+  .selectFile {
+    height: 50px;
+    margin: 20px auto;
+    position: relative;
+    width: 200px;          
+  }
+
+  input[type=file] {
+    opacity: 0;
+  }
+
+}
+.zone.in {
+  color:white;
+  border-color:white;
+  background: radial-gradient(ellipse at center,white 0,black 100%);
+  i {          
+    color:#fff;
+  }
+  label {
+    background: #fff;
+    color:#EB6A5A;
+  }
+}
+.zone.hover {
+  color:gray;
+  border-color:white;
+  background:#fff;
+  border:5px dashed gray;
+  i {          
+    color:#EB6A5A;
+  }
+  label {
+    background: #fff;
+    color:#EB6A5A;
+  }
+}
+.zone.fade {
+  transition: all 0.3s ease-out;
+  opacity: 1;
+}
+#drop_zone {
+  border: 5px solid blue;
+  width:  200px;
+  height: 100px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+}
+.test_upcom{
+    width: 200px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+}
+.create_video{
+    width: 100%;
+    background-color: red;
+    height: 700px;
+    padding-bottom: 20px;
+    border: 1px solid blue;
+
+}
+
+.center_drag_drop {
+    width: 180px;
+    height: 120px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+}
+.center_drag_drop.p {
+    size: 160px;
+}
+#choose-file{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+.fas.fa-cloud-upload-alt{
+    font-size: 60px;
+    color: blue;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.p-center{
+    display: flex;
+    justify-content: center;
+}
+.powers {
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    height: 40px;
+    padding-top: 7px;
+    background: rgba(0,0,0,0.1);
+    white-space: nowrap;
+    position: relative;
+    padding: 5px 5px 5px 0;
+    display: flex;
+}
+.powers-drag-handle{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.upload-input-container
+.input-link{
+    display: inline-block;
+}
+.input-link{
+    display: block;
+    color: blue;
+    cursor: pointer;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    min-width: 320px;
+}
+intput[type="file"]{
+    display: none;
+}
+.footer{
+    height: 60px;
+    display: flex;
+    flex: 0 0 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #e8e8e8;
+}
+.footer-left{
+    font-size: 13px;
+    color: black;
+    line-height: 20px;
+    letter-spacing: .3px;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px 16px;
+    color: #4e4e4e;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 10px;
+    letter-spacing: .035em;
+    white-space: nowrap;
+    text-align: center;
+}
+.btn disable{
+    box-shadow: none;
+    opacity: .4;
+}
+.upload-file{
+    color: #fff;
+    background-color: #0061d5;
+    border-color: #0061d5;
+}
+.footer .footer-right ,btn {
+    margin-left: 8px;
+}
+

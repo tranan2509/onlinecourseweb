@@ -1,0 +1,184 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 24, 2020, 11:42:37 AM
+    Author     : TRAN VAN AN
+*/
+
+body{
+    font-size: 16px;
+}
+
+input{
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+span{
+    font-size: 16px;
+}
+
+a{
+    color: #197BBD;
+}
+
+a:hover{
+    color: #4fa8e4;
+    font-weight: bold;
+}
+
+hr{
+    border: 1px solid #91c2e2;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+}
+
+.header{
+    width: 100%;
+    border-bottom: 2px solid lightblue;
+}
+
+.logo{
+    background: url("../../Images/logo.png") no-repeat;
+    background-size: 170px 80px;
+    height: 80px;
+    width: 170px;
+    background-position: 5px 5px;
+    cursor: pointer;
+}
+
+.content{
+    margin: 0 auto;
+    width: 20%;
+    min-width: 250px;
+}
+
+.small-container{
+    width: 100%;
+}
+
+.title{
+    margin-top: 40px;
+    color: #197BBD;
+    text-align: center;
+}
+
+.label-input{
+    text-align: left;
+}
+
+    .text-input input{
+        width: 95%;
+        min-width: 100px;
+    }
+
+.link-pages{
+    width: 100%;
+    text-align: right;
+}
+
+.btnSubmit{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    color: #ffffff;
+    background-color: #197BBD;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+
+    .btnSubmit:hover{
+        border: 2px solid #197BBD;
+        color: #197BBD;
+        background-color: #ffffff;
+        padding: 8px 20px 8px 20px;
+    }
+
+
+
+.footer-form{
+    display: flex;
+    align-items: center;
+}
+
+.div-footer-form{
+    flex: 50%;
+}
+    
+.agree-policy{
+    text-align: left;
+}
+
+.get-password{
+    text-align: left;
+}
+
+.title-contact-info{
+    margin-top: 20px;
+}
+
+.icon-contact-info{
+    display: flex;
+}
+
+.icon-contact{
+    margin-top: 10px;
+    flex: 50%;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+    .contact-info #icon-facebook{
+        background: url("../../Images/facebook.png") no-repeat;
+        background-size: 48px 48px;
+        background-position: right;
+        margin-right: 5px;
+    }
+
+    .contact-info #icon-gmail{
+        background: url("../../Images/gmail.png") no-repeat;
+        background-size: 48px 48px;
+        margin-left: 5px;
+    }
+
+#input-email{
+    display: flex;
+}
+
+#btnSendCode{
+    min-width: 50px;
+    width: 50px;
+    padding: 0%;
+    cursor: pointer;
+    background-color: #197BBD;
+    color: white;
+    border: none;
+}
+
+#btnSendCode:hover{
+    background-color: #ffffff;
+    border: 1px solid #197BBD;
+    color: #197BBD;
+    font-weight: bold;
+}
+
+.gender{
+    padding: 10px 0;
+}
+
+.gender-sign-in{
+    display: flex;
+    padding: 0;
+    margin: 0 5px 0 25px;
+}

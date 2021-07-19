@@ -1,0 +1,194 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 24, 2020, 12:05:02 PM
+    Author     : TRAN VAN AN
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2
+{
+    padding: 10px 50px 10px 50px;
+    color: white;
+    background-color:#3A01DF ;
+    border-radius: 10px 10px 10px 10px;
+}
+.div_menu
+{
+    height: 100px;
+    /*background-color: blue;*/
+    border-bottom:2px outset #b1154a;
+    box-shadow: 0px 5px 5px gray;
+    display: flex;
+    justify-content: space-between
+}
+
+.div_logo
+{
+    margin-left: 10%;
+    width: 200px;
+    height: 100%;
+    display: inline-block;
+    /*background-color: red;*/
+}
+
+#image_logo
+{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+#div_account
+{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    margin-right: 10%;
+}
+
+#label_account
+{
+
+    font-family: Time New Roman;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.header{
+    width: 100%;
+    border-bottom: 2px solid lightblue;
+}
+
+.logo{
+    background: url("../../Images/logo.png") no-repeat;
+    background-size: 170px 80px;
+    height: 80px;
+    width: 170px;
+    background-position: 5px 5px;
+    cursor: pointer;
+}
+
+.information-field{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #3C8EC6;
+    margin: 20px 0;
+}
+
+.information-field h2{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #3C8EC6;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.avatar{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.information-field .content-field{
+    padding: 20px;
+    align-items: center;
+}
+
+.info-course-detail{
+    flex: 1;
+}
+
+.info-course-detail input, .info-course-detail textarea {
+    padding: 5px 10px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.chapter-container{
+    margin-left: 20px;
+}
+
+.chapter-container ul{
+    list-style: none;
+}
+
+.input-field i{
+    display: flex;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+    color: #3C8EC6;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#textCourseName{
+    width: calc(100% - 40px);
+}
+
+.btn{
+    border: none;
+    background: #fff;
+    padding: 0;
+}
+
+.chapter{
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.input-chapter{
+    width: calc(100% - 80px);
+}
+
+.delete-btn, .edit-btn{
+    display: flex;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    margin: 0px 2px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-btn i, .edit-btn i{
+    font-size: 30px;
+}
+
+.delete-btn{
+    color: red;
+}
+
+.edit-btn{
+    color: green;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
